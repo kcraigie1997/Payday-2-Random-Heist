@@ -1,0 +1,12 @@
+{
+    "name" : "Random Heist",
+    "description" : "Selects a random heist to play",
+    "author" : "Kinnellephant",
+    "blt_version" : 2,
+    "color" : "0 128 128",
+    "image" : "mod.png",
+    "version" : "1",
+    "hooks" : [
+        { "hook_id" : "lib/managers/menumanager", "script_path" : "selector.lua"}
+        ]
+}
